@@ -1,0 +1,5 @@
+- [ ] Add necessary imports (useEffect, useRef) to About.jsx
+- [ ] Append the projects showcase section from Blog.jsx to About.jsx
+- [ ] Create BlueGradientCard.jsx component
+- [ ] Import and add BlueGradientCard to About.jsx
+- [ ] Test the integration by running the app

@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import ProjectsShowcase from './ProjectsShowcase';
+import BlueGradientCard from './BlueGradientCard';
 
 const About = () => {
   return (
@@ -79,6 +81,32 @@ const About = () => {
               </p>
             </div>
           </motion.div>
+        </div>
+
+        {/* Projects Section */}
+        <div className="mt-24">
+          <div className="text-center mb-20">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 mb-4">
+              My Projects
+            </h1>
+            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-600">
+              A showcase of my recent work and development projects
+            </p>
+            <div className="flex mt-6 justify-center">
+              <div className="w-16 h-1 rounded-full bg-gradient-to-r from-blue-600 to-blue-800 inline-flex"></div>
+            </div>
+          </div>
+          <ProjectsShowcase />
+        </div>
+
+        {/* Blue Gradient Card */}
+        <div className="mt-24 flex justify-center">
+          <BlueGradientCard
+            title="Explore My Work"
+            subtitle="Dive deeper into my projects and see how I bring ideas to life with modern web technologies."
+            cta="View Projects"
+            onCta={() => console.log('CTA clicked')}
+          />
         </div>
       </div>
     </div>
