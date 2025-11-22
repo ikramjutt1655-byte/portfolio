@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 // BlueGradientCard.jsx
@@ -14,7 +15,6 @@ export default function BlueGradientCard({
   subtitle = "A modern blue-gradient card with smooth transitions and a subtle floating effect.",
   cta = "Get started",
   onCta = () => {},
-  accent = "#06b6d4", // default accent (cyan-like) if you want inline styles
   className = "",
 }) {
   return (
