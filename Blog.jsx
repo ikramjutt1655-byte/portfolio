@@ -44,6 +44,7 @@ function Blog() {
                 className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src="/img/605592.png"
                 alt="E-Commerce Platform"
+                loading="lazy"
               />
               <div className="p-6">
                 <h2 className="tracking-widest text-xs title-font font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 mb-1 uppercase">
@@ -112,6 +113,7 @@ function Blog() {
                 className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src="/img/681016.jpg"
                 alt="Task Management App"
+                loading="lazy"
               />
               <div className="p-6">
                 <h2 className="tracking-widest text-xs title-font font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 mb-1 uppercase">
@@ -180,6 +182,7 @@ function Blog() {
                 className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src="/img/1335179.png"
                 alt="Weather Dashboard"
+                loading="lazy"
               />
               <div className="p-6">
                 <h2 className="tracking-widest text-xs title-font font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 mb-1 uppercase">
@@ -248,6 +251,7 @@ function Blog() {
                 className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src="/img/605592.png"
                 alt="E-Commerce Platform"
+                loading="lazy"
               />
               <div className="p-6">
                 <h2 className="tracking-widest text-xs title-font font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 mb-1 uppercase">
@@ -315,6 +319,7 @@ function Blog() {
                 className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src="/img/681016.jpg"
                 alt="Task Management App"
+                loading="lazy"
               />
               <div className="p-6">
                 <h2 className="tracking-widest text-xs title-font font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 mb-1 uppercase">
@@ -382,6 +387,7 @@ function Blog() {
                 className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src="/img/1335179.png"
                 alt="Weather Dashboard"
+                loading="lazy"
               />
               <div className="p-6">
                 <h2 className="tracking-widest text-xs title-font font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 mb-1 uppercase">
